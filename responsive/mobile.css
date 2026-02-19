@@ -1,25 +1,60 @@
+
 @media (max-width: 480px){
 
+    .container{
+        padding: 15px;
+        align-items: flex-start;
+    }
 
+    .todo-app{
+        padding: 25px 20px 50px 20px;
+    }
 
-.todo-app{
-    max-width: 480px;
-    
-}
+    .todo-app h2{
+        font-size: 20px;
+        gap: 10px;
+    }
 
+    .todo-app img{
+        width: 22px;
+    }
 
-.todo-app h2{
-    gap: 15px;
-    margin-bottom:15px ;
-}
+    .row{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        border-radius: 20px;
+        gap: 10px;
+    }
 
-.todo-app img{
-    width: 20px;
-}
+    input{
+        padding: 12px;
+        font-size: 14px;
+    }
 
+    button{
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
 
-button{
-    padding: 16px 40px;
-}
+    ul li{
+        font-size: 14px;
+        padding: 12px 8px 12px 45px;
+    }
 
+    ul li::before{
+        height: 22px;
+        width: 22px;
+        top: 12px;
+        left: 10px;
+    }
+
+    ul li span{
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 18px;
+    }
 }
